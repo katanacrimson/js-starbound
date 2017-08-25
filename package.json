@@ -1,0 +1,36 @@
+{
+  "name": "js-starbound",
+  "version": "1.0.0",
+  "description": "js-starbound - A collection of node.js libraries for working with Starbound files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianb/js-starbound.git"
+  },
+  "keywords": [
+    "starbound",
+    "SBAsset6",
+    "SBON",
+    "SBVJ01"
+  ],
+  "author": "Damian Bushong <katana@odios.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damianb/js-starbound/issues"
+  },
+  "homepage": "https://github.com/damianb/js-starbound#readme",
+  "dependencies": {
+    "ConsumableBuffer": "github:damianb/ConsumableBuffer",
+    "ConsumableFile": "github:damianb/ConsumableFile",
+    "SBAsset6": "github:damianb/SBAsset6",
+    "SBON": "github:damianb/SBON",
+    "SBVJ01": "github:damianb/SBVJ01"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
