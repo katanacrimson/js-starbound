@@ -1,6 +1,6 @@
 # js-starbound
 
-## A collection of node.js libraries for working with Starbound files
+## A collection of node.js libraries for working with Starbound files.
 
 js-starbound is a metapackage to help easily work with several types of Starbound files.
 

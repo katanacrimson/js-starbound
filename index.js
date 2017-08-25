@@ -1,5 +1,5 @@
 //
-// SBAsset6 - JS library for working with SBAsset6 archive format
+// js-starbound - A collection of node.js libraries for working with Starbound files.
 // ---
 // @copyright (c) 2017 Damian Bushong <katana@odios.us>
 // @license MIT license
