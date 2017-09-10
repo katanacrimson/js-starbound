@@ -11,6 +11,8 @@ Currently provided are the following libraries:
 * [SBAsset6](https://github.com/damianb/SBAsset6)
 * [ConsumableBuffer](https://github.com/damianb/ConsumableBuffer) (dependency of SBON, SBVJ01, SBAsset6)
 * [ConsumableFile](https://github.com/damianb/ConsumableFile) (dependency of SBON, SBVJ01, SBAsset6)
+* [ExpandingBuffer](https://github.com/damianb/ExpandingBuffer) (dependency of SBON, SBVJ01, SBAsset6)
+* [ExpandingFile](https://github.com/damianb/ExpandingFile) (dependency of SBON, SBVJ01, SBAsset6)
 
 ### How do I install this library?
 
