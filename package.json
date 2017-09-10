@@ -25,6 +25,8 @@
   "dependencies": {
     "ConsumableBuffer": "github:damianb/ConsumableBuffer",
     "ConsumableFile": "github:damianb/ConsumableFile",
+    "ExpandingBuffer": "github:damianb/ExpandingBuffer",
+    "ExpandingFile": "github:damianb/ExpandingFile",
     "SBAsset6": "github:damianb/SBAsset6",
     "SBON": "github:damianb/SBON",
     "SBVJ01": "github:damianb/SBVJ01"

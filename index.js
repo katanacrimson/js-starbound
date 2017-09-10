@@ -13,5 +13,7 @@ module.exports = {
 	SBVJ01: require('SBVJ01'),
 	SBAsset6: require('SBAsset6'),
 	ConsumableBuffer: require('ConsumableBuffer'),
-	ConsumableFile: require('ConsumableFile')
+	ConsumableFile: require('ConsumableFile'),
+	ExpandingBuffer: require('ExpandingBuffer'),
+	ExpandingFile: require('ExpandingFile')
 }
