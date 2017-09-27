@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## js-starbound v1.2.4
+
+##### SBAsset6 1.2.2
+
+* **Hotfix to correct incorrect parsing of paths specified in filetable.** Now correctly parsing paths via SBON.readString().
+
+##### StreamPipeline v1.0.0
+
+* Added to `js-starbound`.
+
 ## js-starbound v1.2.3
 
 ##### ExpandingFile v1.0.2

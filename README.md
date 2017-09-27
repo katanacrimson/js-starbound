@@ -9,6 +9,7 @@ Currently provided are the following libraries:
 * [SBON](https://github.com/damianb/SBON)
 * [SBVJ01](https://github.com/damianb/SBVJ01)
 * [SBAsset6](https://github.com/damianb/SBAsset6)
+* [StreamPipeline](https://github.com/damianb/StreamPipeline) (dependency of SBAsset6)
 * [ConsumableBuffer](https://github.com/damianb/ConsumableBuffer) (dependency of SBON, SBVJ01, SBAsset6)
 * [ConsumableFile](https://github.com/damianb/ConsumableFile) (dependency of SBON, SBVJ01, SBAsset6)
 * [ExpandingBuffer](https://github.com/damianb/ExpandingBuffer) (dependency of SBON, SBVJ01, SBAsset6)
