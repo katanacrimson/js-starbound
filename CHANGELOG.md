@@ -1,8 +1,54 @@
 # CHANGELOG
 
+## ***js-starbound v1.3.0***
+
+##### ***SBAsset6 v2.0.0***
+
+* **Added write support for SBAsset6 archive format.** Now able to create and modify SBAsset6 archives!
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### SBON v2.0.2
+
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### SBVJ01 v2.1.2
+
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### ***StreamPipeline v1.0.3***
+
+* **Hotfix for failing test; broken check on StreamPipeline.load().** Now correctly(-ish) checking for ExpandingFile instances.
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### ExpandingFile v1.0.3
+
+* Fix for failing unit test - added a .gitkeep file so a directory would exist when running clean unit tests.
+* Corrected some documentation.
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### ExpandingBuffer v1.1.2
+
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### ConsumableFile v1.0.2
+
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
+##### ConsumableBuffer v1.0.1
+
+* Updated to use standard for code style enforcement.
+* Added Travis CI support for automated testing.
+
 ## js-starbound v1.2.4
 
-##### SBAsset6 1.2.2
+##### ***SBAsset6 1.2.2***
 
 * **Hotfix to correct incorrect parsing of paths specified in filetable.** Now correctly parsing paths via SBON.readString().
 
@@ -12,7 +58,7 @@
 
 ## js-starbound v1.2.3
 
-##### ExpandingFile v1.0.2
+##### ***ExpandingFile v1.0.2***
 
 * **Hotfix to correct regression introduced by adding an `fs.access` check when opening a file.**
 
@@ -22,7 +68,7 @@
 
 ## js-starbound v1.2.2
 
-##### SBVJ01 v2.1.0
+##### ***SBVJ01 v2.1.0***
 
 * **Add support for unversioned SBVJ01 files.**
 Magic byte was identified as an indicator of whether or not the file was a versioned entity. Now using the magic byte to identify whether or not to involve a version byte.
@@ -46,27 +92,27 @@ Magic byte was identified as an indicator of whether or not the file was a versi
 * Add support for `ExpandingBuffer.position` for compatibility with `ExpandingFile`.
 * Documentation corrections/improvements.
 
-## js-starbound v1.2.0
+## ***js-starbound v1.2.0***
 
-##### SBVJ01 v2.0.0
+##### ***SBVJ01 v2.0.0***
 
 * **Implement write functionality for SBVJ01 files.**  Was previously a read-only library for SBVJ01 files.
 * Dependency updates.
 * Mocha fixes for Windows use.
 
-##### SBAsset6 v1.2.1
+##### ***SBAsset6 v1.2.1***
 
 * **Hotfix to correct issue where binary files were being corrupted when read.**
 No longer converting files read from SBAsset6 archives to strings; we return the Buffer itself and let the consumer decide on what to do with it.
 
-##### SBON v2.0.1
+##### ***SBON v2.0.1***
 
 * **Hotfix to correct failures when writing long-length SBON byte sequences, SBON strings, SBON lists, SBON maps.**
 Now correctly using varints instead of standard numbers.
 
-## js-starbound v1.1.0
+## ***js-starbound v1.1.0***
 
-##### SBON v2.0.0
+##### ***SBON v2.0.0***
 
 * **Add support for writing SBON.** Was previously only able to read SBON data.
 
