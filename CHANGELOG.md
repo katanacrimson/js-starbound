@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## js-starbound v1.3.1
+
+##### SBAsset6 v2.0.1
+
+* Added `SBAsset6.progress`, an EventEmitter instance, to improve observability of long-running actions such as large pack/unpack operations.
+
 ## ***js-starbound v1.3.0***
 
 ##### ***SBAsset6 v2.0.0***
