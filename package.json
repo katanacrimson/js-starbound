@@ -1,8 +1,16 @@
 {
   "name": "js-starbound",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "js-starbound - A collection of node.js libraries for working with Starbound files.",
-  "main": "index.js",
+  "main": "build/js-starbound.js",
+  "types": "build/js-starbound.d.ts",
+  "scripts": {
+    "style": "tslint ./src/*.ts -p ./tsconfig.json --type-check",
+    "test": "npm run style",
+    "build": "tsc",
+    "qc": "npm run build && npm run style",
+    "prepublish": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/damianb/js-starbound.git"
@@ -20,6 +28,7 @@
   },
   "homepage": "https://github.com/damianb/js-starbound#readme",
   "dependencies": {
+    "@types/node": "^8.0.34",
     "ConsumableBuffer": "github:damianb/ConsumableBuffer",
     "ConsumableFile": "github:damianb/ConsumableFile",
     "ExpandingBuffer": "github:damianb/ExpandingBuffer",
@@ -31,6 +40,9 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "tslint": "^5.7.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.5.3"
   }
 }

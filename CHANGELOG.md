@@ -1,5 +1,65 @@
 # CHANGELOG
 
+## js-starbound v1.4.0
+
+* `js-starbound` is now completely using TypeScript! All modules now provide definition files and are using tslint for style enforcement.
+
+##### ***SBAsset6 v2.1.0***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***SBVJ01 v2.2.2***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***SBON v2.1.3***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***StreamPipeline v1.1.2***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***ExpandingFile v1.1.1***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***ExpandingBuffer v1.2.1***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***ConsumableFile v1.1.1***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
+##### ***ConsumableBuffer v1.1.1***
+
+* **Now using TypeScript.**
+* Now providing definition files.
+* Now using tslint for style enforcement.
+* Removed runtime type guards.
+
 ## js-starbound v1.3.1
 
 ##### SBAsset6 v2.0.1
