@@ -1,5 +1,63 @@
 # CHANGELOG
 
+## js-starbound v2.0.0
+
+* `js-starbound` is now using Yarn for dependency management.
+* `js-starbound` is now using Jenkins for Continuous Integration (via a private Jenkins server).
+* `js-starbound` is now using TypeDoc for documentation.
+
+#### ***SBAsset6 v2.2.0***
+
+* Now using Yarn for dependency management.
+* Now using Jenkins for CI.
+* Now using TypeDoc for documentation.
+* Dependencies updated.
+* Now utilizing ByteAccordion to provide StreamPipeline, ExpandingFile, ExpandingBuffer, ConsumableFile, ConsumableBuffer as necessary.
+
+#### ***SBVJ01 v2.3.0***
+
+* Now using Yarn for dependency management.
+* Now using Jenkins for CI.
+* Now using TypeDoc for documentation.
+* Dependencies updated.
+* Now utilizing ByteAccordion to provide StreamPipeline, ExpandingFile, ExpandingBuffer, ConsumableFile, ConsumableBuffer as necessary.
+
+#### ***SBON v2.3.0***
+
+* Now using Yarn for dependency management.
+* Now using Jenkins for CI.
+* Now using TypeDoc for documentation.
+* Dependencies updated.
+* Now utilizing ByteAccordion to provide StreamPipeline, ExpandingFile, ExpandingBuffer, ConsumableFile, ConsumableBuffer as necessary.
+
+#### ***ByteAccordion v1.1.0***
+
+* Now using Yarn for dependency management.
+* Now using Jenkins for CI.
+* Now using TypeDoc for documentation.
+* Dependencies updated.
+* Now includes StreamPipeline, ExpandingFile, ExpandingBuffer, ConsumableFile, ConsumableBuffer.
+
+#### ***StreamPipeline***
+
+* No longer a separate entity; folded into ByteAccordion.
+
+#### ***ExpandingFile***
+
+* No longer a separate entity; folded into ByteAccordion.
+
+#### ***ExpandingBuffer***
+
+* No longer a separate entity; folded into ByteAccordion.
+
+#### ***ConsumableFile***
+
+* No longer a separate entity; folded into ByteAccordion.
+
+#### ***ConsumableBuffer***
+
+* No longer a separate entity; folded into ByteAccordion.
+
 ## js-starbound v1.4.0
 
 * `js-starbound` is now completely using TypeScript! All modules now provide definition files and are using tslint for style enforcement.

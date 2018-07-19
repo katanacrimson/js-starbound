@@ -1,15 +1,15 @@
 {
   "name": "js-starbound",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "js-starbound - A collection of node.js libraries for working with Starbound files.",
   "main": "build/js-starbound.js",
   "types": "build/js-starbound.d.ts",
   "scripts": {
-    "style": "tslint ./src/*.ts -p ./tsconfig.json --type-check",
+    "style": "tslint ./src/*.ts -p ./tsconfig.json",
     "test": "npm run style",
     "build": "tsc",
     "qc": "npm run build && npm run style",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -29,20 +29,14 @@
   "homepage": "https://github.com/damianb/js-starbound#readme",
   "dependencies": {
     "@types/node": "^8.0.34",
-    "ConsumableBuffer": "github:damianb/ConsumableBuffer",
-    "ConsumableFile": "github:damianb/ConsumableFile",
-    "ExpandingBuffer": "github:damianb/ExpandingBuffer",
-    "ExpandingFile": "github:damianb/ExpandingFile",
-    "SBAsset6": "github:damianb/SBAsset6",
-    "SBON": "github:damianb/SBON",
-    "SBVJ01": "github:damianb/SBVJ01",
-    "StreamPipeline": "github:damianb/StreamPipeline"
+    "ByteAccordion": "github:damianb/ByteAccordion#v1.1.0",
+    "SBAsset6": "github:damianb/SBAsset6#v2.2.0",
+    "SBON": "github:damianb/SBON#v2.3.0",
+    "SBVJ01": "github:damianb/SBVJ01#v2.3.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3",
-    "tslint": "^5.7.0",
-    "tslint-config-standard": "^6.0.1",
-    "typescript": "^2.5.3"
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.0.1",
+    "typescript": "^2.9.0"
   }
 }
