@@ -12,47 +12,9 @@
   version "10.5.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
 
-"@types/node@^8.0.34", "@types/node@^8.0.45":
+"@types/node@^8.0.45":
   version "8.10.21"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.21.tgz#12b3f2359b27aa05a45d886c8ba1eb8d1a77e285"
-
-"ByteAccordion@github:damianb/ByteAccordion#1.1.0", "ByteAccordion@github:damianb/ByteAccordion#v1.1.0":
-  version "1.1.0"
-  uid d141d0f8b91f90152f32b123319f02ce36dc97ff
-  resolved "https://codeload.github.com/damianb/ByteAccordion/tar.gz/d141d0f8b91f90152f32b123319f02ce36dc97ff"
-  dependencies:
-    "@types/fs-extra" "^5.0.4"
-    "@types/node" "^8.0.34"
-    fs-extra "^7.0.0"
-
-"SBAsset6@github:damianb/SBAsset6#v2.2.0":
-  version "2.2.0"
-  resolved "https://codeload.github.com/damianb/SBAsset6/tar.gz/a17257425462a4055dfd69c122bd887550f8d5f4"
-  dependencies:
-    "@types/fs-extra" "^5.0.4"
-    "@types/node" "^8.0.45"
-    ByteAccordion "github:damianb/ByteAccordion#1.1.0"
-    SBON "github:damianb/SBON#2.3.0"
-    fs-extra "^7.0.0"
-    int64-buffer "^0.1.9"
-
-"SBON@github:damianb/SBON#2.3.0", "SBON@github:damianb/SBON#v2.3.0":
-  version "2.3.0"
-  resolved "https://codeload.github.com/damianb/SBON/tar.gz/e411d2f0830fa5f689ff65fa2c9e6e609261660c"
-  dependencies:
-    "@types/node" "^8.0.45"
-    ByteAccordion "github:damianb/ByteAccordion#1.1.0"
-    big-integer "^1.6.25"
-
-"SBVJ01@github:damianb/SBVJ01#v2.3.0":
-  version "2.3.0"
-  resolved "https://codeload.github.com/damianb/SBVJ01/tar.gz/e7418f336ebda10b38687469408bffaa46bfdf8e"
-  dependencies:
-    "@types/fs-extra" "^5.0.4"
-    "@types/node" "^8.0.45"
-    ByteAccordion "github:damianb/ByteAccordion#1.1.0"
-    SBON "github:damianb/SBON#2.3.0"
-    fs-extra "^7.0.0"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -100,6 +62,14 @@ brace-expansion@^1.1.7:
 builtin-modules@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
+
+byteaccordion@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/byteaccordion/-/byteaccordion-1.1.2.tgz#32e3640b369dc1b09aac8eec69225da3b898b220"
+  dependencies:
+    "@types/fs-extra" "^5.0.4"
+    "@types/node" "^8.0.45"
+    fs-extra "^7.0.0"
 
 chalk@^1.1.3:
   version "1.1.3"
@@ -262,6 +232,35 @@ resolve@^1.3.2:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.8.1.tgz#82f1ec19a423ac1fbd080b0bab06ba36e84a7a26"
   dependencies:
     path-parse "^1.0.5"
+
+sbasset6@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/sbasset6/-/sbasset6-2.2.1.tgz#6c624aae630bbfe94e80e0517dfc458805274407"
+  dependencies:
+    "@types/fs-extra" "^5.0.4"
+    "@types/node" "^8.0.45"
+    byteaccordion "^1.1.2"
+    fs-extra "^7.0.0"
+    int64-buffer "^0.1.9"
+    sbon "^2.3.2"
+
+sbon@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/sbon/-/sbon-2.3.2.tgz#2c17de7539037b6ff036441862070aa5da88e84f"
+  dependencies:
+    "@types/node" "^8.0.45"
+    big-integer "^1.6.25"
+    byteaccordion "^1.1.2"
+
+sbvj01@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/sbvj01/-/sbvj01-2.3.1.tgz#011d600c3b085aaff8caeac61ca0a87297a333e0"
+  dependencies:
+    "@types/fs-extra" "^5.0.4"
+    "@types/node" "^8.0.45"
+    byteaccordion "^1.1.2"
+    fs-extra "^7.0.0"
+    sbon "^2.3.2"
 
 semver@^5.3.0:
   version "5.5.0"

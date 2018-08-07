@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/damianb/js-starbound#readme",
   "dependencies": {
-    "@types/node": "^8.0.34",
-    "ByteAccordion": "github:damianb/ByteAccordion#v1.1.0",
-    "SBAsset6": "github:damianb/SBAsset6#v2.2.0",
-    "SBON": "github:damianb/SBON#v2.3.0",
-    "SBVJ01": "github:damianb/SBVJ01#v2.3.0"
+    "@types/node": "^8.0.45",
+    "byteaccordion": "^1.1.2",
+    "sbasset6": "^2.2.1",
+    "sbon": "^2.3.2",
+    "sbvj01": "^2.3.1"
   },
   "devDependencies": {
     "tslint": "^5.11.0",

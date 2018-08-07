@@ -16,7 +16,7 @@ Currently provided are the following libraries:
 Ensure you have at least node.js v7.6+, and then...
 
 ``` bash
-$ yarn add https://github.com/damianb/js-starbound.git
+$ yarn add js-starbound
 ```
 
 ### How do I use this library?

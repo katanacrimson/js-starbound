@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## js-starbound v2.0.1
+
+* `js-starbound` included packages are all using Jenkins for automated testing.
+* `js-starbound` included packages all published individually to npm.
+* `js-starbound` included packages dependencies reworked slightly to depend on one another as proper packages.
+
 ## js-starbound v2.0.0
 
 * `js-starbound` is now using Yarn for dependency management.
