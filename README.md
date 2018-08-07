@@ -30,3 +30,10 @@ const { SBAsset6, SBVJ01, SBON } = require('js-starbound')
 // and use SBAsset6, SBVJ01, SBON...etc. all as is documented for each individual module
 
 ```
+
+Documentation is available here:
+
+* [SBON documentation](https://damianb.github.io/SBON)
+* [SBVJ01 documentation](https://damianb.github.io/SBVJ01)
+* [SBAsset6 documentation](https://damianb.github.io/SBAsset6/)
+* [ByteAccordion documentation](https://damianb.github.io/ByteAccordion)
