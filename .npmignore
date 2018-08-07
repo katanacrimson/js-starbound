@@ -1,0 +1,9 @@
+.yarn_packages/*
+docs/*
+node_modules/*
+src/*
+.directory
+.gitignore
+.yarnrc
+tsconfig.json
+tslint.json
