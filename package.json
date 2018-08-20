@@ -29,7 +29,7 @@
   "homepage": "https://github.com/damianb/js-starbound#readme",
   "dependencies": {
     "@types/node": "^8.0.45",
-    "byteaccordion": "^1.1.2",
+    "byteaccordion": "^1.1.3",
     "sbasset6": "^2.2.1",
     "sbon": "^2.3.2",
     "sbvj01": "^2.3.1"

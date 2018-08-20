@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## js-starbound v2.0.2
+
+### ***ByteAccordion v1.1.3***
+
+* Now handling reads of 0 bytes in length correctly instead of throwing an Error (an empty buffer is returned instead now).
+
 ## js-starbound v2.0.1
 
 * `js-starbound` included packages are all using Jenkins for automated testing.
