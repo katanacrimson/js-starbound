@@ -1,6 +1,6 @@
 {
   "name": "js-starbound",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "js-starbound - A collection of node.js libraries for working with Starbound files.",
   "main": "build/js-starbound.js",
   "types": "build/js-starbound.d.ts",
@@ -30,9 +30,9 @@
   "dependencies": {
     "@types/node": "^8.0.45",
     "byteaccordion": "^1.1.3",
-    "sbasset6": "^2.2.1",
-    "sbon": "^2.3.2",
-    "sbvj01": "^2.3.1"
+    "sbasset6": "^2.2.2",
+    "sbon": "^2.3.3",
+    "sbvj01": "^2.3.2"
   },
   "devDependencies": {
     "tslint": "^5.11.0",
