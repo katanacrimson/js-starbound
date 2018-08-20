@@ -1,6 +1,6 @@
 {
   "name": "js-starbound",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "js-starbound - A collection of node.js libraries for working with Starbound files.",
   "main": "build/js-starbound.js",
   "types": "build/js-starbound.d.ts",
