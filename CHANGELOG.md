@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## js-starbound v2.0.4
+
+### ***SBON 2.3.7***
+
+* Dependency updates
+
+### ***SBVJ01 v2.3.3***
+
+* Dependency updates
+
+### ***SBAsset6 v2.2.3***
+
+* Dependency updates
+
+### ***ByteAccordion v1.1.7***
+
+* Dependency updates
+
 ## js-starbound v2.0.3
 
 ### ***SBON 2.3.3***

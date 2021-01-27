@@ -13,7 +13,7 @@ Currently provided are the following libraries:
 
 ### How do I install this library?
 
-Ensure you have at least node.js v7.6+, and then...
+Ensure you have at least node.js v12+, and then...
 
 ``` bash
 $ yarn add js-starbound
